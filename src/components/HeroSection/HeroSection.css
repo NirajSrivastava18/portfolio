@@ -1,0 +1,24 @@
+.heroContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px;
+}
+
+.heroContainer h1 {
+  font-size: 75px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.hero-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 220px;
+}
+
+.hero-footer img {
+  margin-right: 220px;
+}
