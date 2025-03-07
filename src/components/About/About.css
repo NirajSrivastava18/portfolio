@@ -10,6 +10,7 @@
   gap: 10px;
   column-gap: 60px;
   place-items: center;
+  margin-bottom: 80px;
 }
 .Expertise-Item h3 {
   font-size: 24px;

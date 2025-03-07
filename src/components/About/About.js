@@ -4,7 +4,6 @@ import dot from '../../assets/dot.svg';
 import star from '../../assets/star.svg';
 
 const About = () => {
-  const square = String.fromCharCode(9725);
   return (
     <div className="AboutContainer">
       <h2>
