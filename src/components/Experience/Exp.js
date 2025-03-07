@@ -5,9 +5,9 @@ import star from '../../assets/star.svg';
 const Exp = () => {
   return (
     <div className="ExpContainer">
-      <h2>
+      <h3>
         <img src={star} alt="star" /> Experience
-      </h2>
+      </h3>
 
       <div className="Experience">
         <h4>Lead Product Designer</h4>
