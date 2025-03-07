@@ -1,3 +1,7 @@
+.CommentContainer {
+  margin-bottom: 5%;
+}
+
 .Comment {
   display: flex;
   justify-content: space-between;
@@ -27,6 +31,7 @@
 .Comment-Content p {
   margin: 0;
   margin-top: 2px;
+  color: #cbcbcb;
 }
 
 .Commentright h4 {

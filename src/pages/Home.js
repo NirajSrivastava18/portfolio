@@ -6,6 +6,8 @@ import Works from '../components/Works/Works';
 import Exp from '../components/Experience/Exp';
 import Blogs from '../components/Blogs/Blogs';
 import Comments from '../components/Comments/Comments';
+import Faq from '../components/Faq/Faq';
+import Footer from '../components/Footer/Footer';
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
       <Exp />
       <Blogs />
       <Comments />
+      <Faq />
+      <Footer />
     </>
   );
 };
