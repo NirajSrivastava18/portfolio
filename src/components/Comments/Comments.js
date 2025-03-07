@@ -28,6 +28,14 @@ const comments = () => {
           </h4>
         </div>
       </div>
+      <div className="arrow-btns">
+        <button className="arrow-btns left">
+          <span>&larr;</span>
+        </button>
+        <button className="arrow-btns right">
+          <span>&rarr;</span>
+        </button>
+      </div>
     </div>
   );
 };
