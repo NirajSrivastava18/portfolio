@@ -4,12 +4,12 @@
   align-items: center;
 }
 
-.Experience h3 {
+.Experience h4 {
   margin-right: 20px;
   margin-bottom: 0;
 }
 
-.Experience h4 {
+.Experience h5 {
   text-align: right;
   margin-bottom: 0;
 }

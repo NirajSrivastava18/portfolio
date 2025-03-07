@@ -6,14 +6,14 @@ import star from '../../assets/star.svg';
 const About = () => {
   return (
     <div className="AboutContainer">
-      <h2>
+      <h3>
         <img src={star} alt="star" /> Expertise
-      </h2>
+      </h3>
       <div className="Expertise">
         <div className="Expertise-Item">
-          <h3>
+          <h5>
             <img src={dot} alt="dot" /> Branding
-          </h3>
+          </h5>
           <p>
             I create efficient, adaptable, and engaging websites. No predefined
             patterns. No sluggish, complex code. Webflow forms the foundation of
@@ -22,9 +22,9 @@ const About = () => {
           </p>
         </div>
         <div className="Expertise-Item">
-          <h3>
+          <h5>
             <img src={dot} alt="dot" /> UI Design
-          </h3>
+          </h5>
           <p>
             I create efficient, adaptable, and engaging websites. No predefined
             patterns. No sluggish, complex code. Webflow forms the foundation of
@@ -33,9 +33,9 @@ const About = () => {
           </p>
         </div>
         <div className="Expertise-Item">
-          <h3>
+          <h5>
             <img src={dot} alt="dot" /> UX Design
-          </h3>
+          </h5>
           <p>
             I comprehend and resolve digital product issues using a user-focused
             methodology. Investigation. compassion, and visual conveyance are a
@@ -44,9 +44,9 @@ const About = () => {
           </p>
         </div>
         <div className="Expertise-Item">
-          <h3>
+          <h5>
             <img src={dot} alt="dot" /> Development
-          </h3>
+          </h5>
           <p>
             I create user-friendly, adaptive, engaging websites. No
             cookie-cutters. No cumbersome. complex coding. Webflow forms the

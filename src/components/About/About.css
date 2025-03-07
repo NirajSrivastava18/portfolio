@@ -1,9 +1,3 @@
-.AboutContainer h2 {
-  display: flex;
-  gap: 8px;
-  font-size: 40px;
-}
-
 .Expertise {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -12,12 +6,7 @@
   place-items: center;
   margin-bottom: 80px;
 }
-.Expertise-Item h3 {
-  font-size: 24px;
-}
 
-.Expertise-Item p {
-  font-size: 16px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 200;
+.Expertise-item {
+  color: #cbcbcb;
 }

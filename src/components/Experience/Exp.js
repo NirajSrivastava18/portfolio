@@ -10,35 +10,35 @@ const Exp = () => {
       </h2>
 
       <div className="Experience">
-        <h3>Lead Product Designer</h3>
+        <h4>Lead Product Designer</h4>
         <div className="Experience-dates">
-          <h4>Fortknox</h4>
+          <h5>Fortknox</h5>
           <p>Mar 2022 - Oct 2023</p>
         </div>
       </div>
       <hr />
       <div className="Experience">
-        <h3>Intern Designer</h3>
+        <h4>Intern Designer</h4>
         <div className="Experience-dates">
-          <h4>OmniSafe</h4>
-          <p>Mar 2022 - Oct 2023</p>
-        </div>
-      </div>
-      <hr />
-
-      <div className="Experience">
-        <h3>UI Designer</h3>
-        <div className="Experience-dates">
-          <h4>Doradesign</h4>
+          <h5>OmniSafe</h5>
           <p>Mar 2022 - Oct 2023</p>
         </div>
       </div>
       <hr />
 
       <div className="Experience">
-        <h3>Frontend Developer</h3>
+        <h4>UI Designer</h4>
         <div className="Experience-dates">
-          <h4>Opacity Author</h4>
+          <h5>Doradesign</h5>
+          <p>Mar 2022 - Oct 2023</p>
+        </div>
+      </div>
+      <hr />
+
+      <div className="Experience">
+        <h4>Frontend Developer</h4>
+        <div className="Experience-dates">
+          <h5>Opacity Author</h5>
           <p>Mar 2022 - Oct 2023</p>
         </div>
       </div>
