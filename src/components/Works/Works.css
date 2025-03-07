@@ -1,13 +1,11 @@
+.WorksContainer {
+  margin-bottom: 5%;
+}
+
 .headers {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.headers h2 {
-  font-size: 40px;
-  display: flex;
-  gap: 8px;
 }
 
 .view {
