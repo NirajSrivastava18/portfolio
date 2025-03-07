@@ -10,9 +10,9 @@ const Works = () => {
   return (
     <div className="WorksContainer">
       <div className="headers">
-        <h2>
+        <h3>
           <img src={star} alt="star" /> Works
-        </h2>
+        </h3>
         <a href="/" className="view">
           view all
         </a>

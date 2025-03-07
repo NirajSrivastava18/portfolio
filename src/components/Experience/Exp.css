@@ -1,3 +1,7 @@
+.ExpContainer {
+  margin-bottom: 5%;
+}
+
 .Experience {
   display: flex;
   justify-content: space-between;
