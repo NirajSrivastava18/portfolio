@@ -17,8 +17,47 @@
   align-items: center;
   font-family: 'Poppins', sans-serif;
   font-weight: 200;
+  margin-bottom: 5%;
 }
 
 .hero-footer img {
   margin-right: 220px;
+}
+
+@media screen and (max-width: 1024px) {
+  .hero-footer {
+    display: block;
+    margin-bottom: 10%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heroContainer {
+    margin: 40px;
+  }
+  .heroContainer img {
+    max-height: 30px;
+  }
+  .heroContainer h1 {
+    font-size: 2rem;
+  }
+  .heroImg {
+    width: 30px;
+  }
+  .company-logos {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .companyImg {
+    max-width: 100px;
+  }
+
+  .hero-footer {
+    display: block;
+    margin-bottom: 35%;
+  }
+
+  .hero-footer img {
+    margin-right: 10px;
+  }
 }

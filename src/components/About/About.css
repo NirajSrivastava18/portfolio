@@ -4,9 +4,26 @@
   gap: 10px;
   column-gap: 60px;
   place-items: center;
-  margin-bottom: 80px;
+  /* margin-bottom: 20px; */
+}
+
+.AboutContainer h3 {
+  margin: 0;
 }
 
 .Expertise-item {
   color: #cbcbcb;
+}
+@media screen and (max-width: 768px) {
+  .Expertise {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .AboutContainer h3 {
+    margin: 0;
+  }
+
+  .Expertise-item {
+    font-size: 1rem;
+  }
 }

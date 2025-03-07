@@ -96,3 +96,94 @@
   cursor: pointer;
   transform: scale(1.05);
 }
+@media screen and (max-width: 1024px) {
+  .WorksContainer {
+    margin-right: 20px;
+  }
+  .Works-Box {
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4%;
+  }
+
+  .Works-Box img {
+    width: 50%;
+  }
+
+  .Works-Content h3 {
+    font-size: 28px;
+  }
+
+  .Works-Box-btns button {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+
+  .mail-backdrop1,
+  .mail-backdrop2,
+  .mail-backdrop3 {
+    display: none; /* Hide on very small screens */
+  }
+  .Case-Study {
+    float: right;
+    position: relative;
+    bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .WorksContainer {
+    padding: 10px;
+  }
+
+  .Works-Box {
+    padding: 15px;
+    flex-direction: column;
+  }
+
+  .Works-Content h3 {
+    font-size: 24px;
+  }
+  .Works-Box img {
+    width: 100%;
+  }
+
+  .mail-backdrop1,
+  .mail-backdrop2,
+  .mail-backdrop3 {
+    display: none; /* Hide on very small screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .headers {
+    align-items: center;
+    border-radius: 4%;
+  }
+  .Works-Box img {
+    width: 100%;
+  }
+
+  .Works-Box {
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .Case-Study {
+    position: relative;
+    top: 5px;
+    right: 1px;
+    width: 100%;
+  }
+  .Works-Content h3 {
+    font-size: 20px;
+  }
+
+  .mail-backdrop1,
+  .mail-backdrop2,
+  .mail-backdrop3 {
+    display: none; /* Hide on very small screens */
+  }
+}

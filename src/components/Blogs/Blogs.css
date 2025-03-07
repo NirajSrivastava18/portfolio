@@ -75,3 +75,87 @@
   cursor: pointer;
   transform: scale(1.05);
 }
+
+/* ✅ RESPONSIVENESS */
+@media screen and (max-width: 1024px) {
+  .Blogs-Box {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 20px;
+  }
+
+  .Blogs-left {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .Blogs-left img {
+    width: 100%;
+  }
+
+  .Blogs-Content {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .headers a {
+    font-size: 0.9rem;
+  }
+
+  .Blogs-left img {
+    width: 100%;
+  }
+
+  .Blogs-Content h3 {
+    font-size: 1rem;
+  }
+
+  .Blogs-Content p {
+    font-size: 0.8rem;
+  }
+
+  .Blog-Content-btn button {
+    font-size: 0.8rem;
+    padding: 5px 15px;
+  }
+
+  .Read {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .BlogsContainer {
+    padding: 10px;
+  }
+
+  .headers a {
+    font-size: 0.8rem;
+  }
+
+  .Blogs-left img {
+    width: 100%;
+  }
+
+  .Blogs-Content h3 {
+    font-size: 0.9rem;
+  }
+
+  .Blogs-Content p {
+    font-size: 0.75rem;
+  }
+
+  .Blog-Content-btn button {
+    font-size: 0.7rem;
+    padding: 4px 12px;
+  }
+
+  .Read {
+    padding: 8px 18px;
+    font-size: 0.85rem;
+  }
+}

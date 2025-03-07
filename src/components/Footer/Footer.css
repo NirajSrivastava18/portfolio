@@ -91,3 +91,62 @@
   -webkit-text-stroke: 1px white; /* White outline */
   font-family: 'Syne', sans-serif; /* Adjust font if needed */
 }
+
+/* ✅ RESPONSIVENESS */
+@media screen and (max-width: 1024px) {
+  .outlined-text {
+    font-size: 2rem;
+  }
+
+  .footer-heading {
+    font-size: 2.5rem;
+  }
+
+  .footer-email {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .marquee {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  .footer-heading {
+    font-size: 2rem;
+  }
+
+  .footer-email {
+    font-size: 1rem;
+  }
+
+  .footer-social {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .outlined-text {
+    font-size: 1.8rem;
+  }
+
+  .footer-heading {
+    font-size: 1.8rem;
+  }
+
+  .footer-email {
+    font-size: 0.9rem;
+  }
+
+  .footer-social {
+    font-size: 12px;
+  }
+}
